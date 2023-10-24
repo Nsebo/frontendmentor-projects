@@ -7,9 +7,11 @@
 :root {
   --primary-color: #2f65f8;
   --light-color: #575988;
+  --hover-color: #6c9bff;
   --dark-blue: #07043b;
   --icon-color: #3da08f;
   --white-color: #fff;
+  --light-green: #71dfcc;
 }
 
 body {
@@ -50,6 +52,7 @@ a {
 }
 
 /*hero*/
+
 .hero {
   margin-top: 50px;
 }
@@ -82,7 +85,7 @@ input[type='text'] {
   border: 1px solid var(--dark-blue);
   border-radius: 4px;
 }
-.hero-input .btn {
+.primary-btn {
   padding: 10px 50px;
   background-color: var(--primary-color);
   color: var(--white-color);
@@ -91,8 +94,13 @@ input[type='text'] {
   font-size: 14px;
 }
 
-.btn {
+.primary-btn {
   margin-left: 16px;
+}
+
+.primary-btn:hover {
+  cursor: pointer;
+  background-color: var(--hover-color);
 }
 
 .cta {
@@ -113,9 +121,11 @@ input[type='text'] {
   border-bottom: 1px solid var(--icon-color);
   padding-bottom: 3px;
   font-size: 16px;
+  cursor: pointer;
 }
 
-.cta .arrow-icon {
+a:active {
+  color: var(--light-green);
 }
 .attribution {
   font-size: 11px;
