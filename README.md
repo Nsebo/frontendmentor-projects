@@ -1,2 +1,2 @@
 # frontendmentor-projects
-This reop will contain all the projects from frontend mentor
+This repo will contain all the projects from frontend mentor that i will be working on
