@@ -15,7 +15,12 @@ body {
   font-family: 'Figtree', sans-serif;
   background-color: var(--background-color);
   padding: 30px 40px;
-  margin-top: 150px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 img, .date, .title{
@@ -35,7 +40,8 @@ img, .date, .title{
 }
 
 img{
-  width: 300px;
+  display: block;
+  max-width: 100%;
   border-radius: 8px;
   cursor: pointer;
 }
