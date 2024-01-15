@@ -31,11 +31,13 @@ img, .date, .title{
  border-radius: 20px;
  border: 2px solid black;
  box-shadow: 8px 7px 0 black; 
+ cursor: pointer;
 }
 
 img{
   width: 300px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 button{
